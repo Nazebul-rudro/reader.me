@@ -1,0 +1,14 @@
+
+.registrationForm{
+    margin-top: 50px !important;
+    margin: auto;
+    max-width: 500px;
+}
+.submitButton{
+    background-color: #4F7942;
+  }
+.submitButton:hover{
+    background-color: #2AAA8A;;
+}
+
+

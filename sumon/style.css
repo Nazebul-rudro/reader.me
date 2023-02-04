@@ -1,0 +1,70 @@
+/* start home css */
+.backgroundline{
+    border-bottom: 1px solid #4F7942;
+}
+.headerButton p{
+    border-right: 1px solid #4F7942;
+    color: #555;
+    font-size: 14px;
+}
+.headerButton p a{
+    text-decoration: none;
+    color: #555;
+}
+/* end home css */
+
+/* nav bar */
+.rederImg img{
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.navbarAbsolute{
+    position: relative;
+    padding-left: 5px;
+}
+.navbarAbsolute i{
+    font-size: 18px;
+}
+.refresh{
+    position: absolute;
+    margin-top: -10px;
+    font-size: 10px;
+    background: #4F7942;
+    padding:2px 6px ;
+    border-radius: 50%;
+}
+img{
+    height: 350px !important;
+    width: 240px !important;
+}
+/* <!-- footer start --> */
+footer{
+    background: #111723;
+    color: #fff;
+}
+.footer_style ul{
+    list-style-type: none;
+    
+}
+.footer_style ul li {
+    margin-top: 15px;
+    font-size: 16px;
+}
+.footerContent{
+    margin-left: -45px;
+}
+.footercontact h4{
+border-bottom: 1px solid #ddd;
+}
+
+.footercontact ul{
+    list-style: none;
+}
+.footercontact ul li{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+/* <!-- footer end --> */

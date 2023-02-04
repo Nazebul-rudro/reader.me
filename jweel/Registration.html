@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="juel_css/bootstrap.css">
+    <link rel="stylesheet" href="Registration Page.css">
+</head>
+<body>
+    <fieldset style="border: 1px solid lightgray; margin: 200px; margin-top: 50px !important; margin-bottom: 50px;">
+        <legend style="margin-top: 20px;"><center>Registration Form</center></legend>
+        <form class="registrationForm">
+    <!------------------------------------Frist Name and Last Name----------------------------------------------------------------->
+            <label for="exampleInputName" class="form-label">Name</label>
+            <div class="mb-3" style="display: flex;">
+                <div class="input-group" style="margin-right: 10px;">
+                    <input type="text" placeholder="Frist" aria-label="First name" class="form-control">
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Last" aria-label="Last name" class="form-control">
+                </div>
+            </div>
+    <!---------------------------------------------Phone Number-------------------------------------------------------->
+            <div class="mb-3">
+                <label for="exampleInputPhone Number" class="form-label">Phone Number</label>
+                <div class="input-group">
+                    <input type="tel" placeholder="### #### ####" aria-label="Phone Number" class="form-control">
+                </div>
+            </div>
+    <!---------------------------------------------------Email Address-------------------------------------------------->
+            <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+    <!--------------------------------------------Address--------------------------------------------------------->
+            <div class="mb-3">
+                <label for="exampleInputAddress" class="form-label">Address</label>
+                <div class="input-group">
+                    <input type="text" placeholder="Address" aria-label="Address" class="form-control" maxlength="11">
+                </div>
+            </div>
+    <!----------------------------------------------City and Region------------------------------------------------------->
+            <div class="mb-3" style="display: flex;">
+                <div class="input-group" style="margin-right: 10px;">
+                    <input type="text" placeholder="City" aria-label="City" class="form-control">
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Region" aria-label="Region" class="form-control">
+                </div>
+            </div>
+    <!------------------------------------------Postal Code and Country ----------------------------------------------------------->
+            <div class="mb-3" style="display: flex;">
+                <div class="input-group" style="margin-right: 10px;">
+                    <input type="text" placeholder="Postal Code/Zip Code" aria-label="City" class="form-control">
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Country</option>
+                    <option value="Dhaka">Bangladesh</option> 
+                    <option value="Faridpur">India</option>
+                    <option value="Gazipur">Pakisthan</option>
+                    <option value="Gopalganj">Srilanka</option>
+                    <option value="Kishoreganj">Nepal</option>
+                    <option value="Madaripur">Bhutan</option>
+                    <option value="Manikganj">Maldives</option>
+                    <option value="Munshiganj">Afganisthan</option>
+                </select>
+            </div>
+    <!-----------------------------------------Preferred Location/s------------------------------------------------------------>
+            <div class="mb-3">
+                <label for="exampleInputPreferred Location" class="form-label">Preferred Location/s</label>
+                <div class="input-group">
+                    <input type="text" placeholder="Address" aria-label="Preferred Location" class="form-control" maxlength="11">
+                </div>
+            </div>
+    <!------------------------------------------Maximum Budget in Taka/Doller----------------------------------------------------------->
+            <div class="mb-3">
+                <label for="exampleInputPreferred Location" class="form-label">Maximum Budget in Taka/Doller</label>
+                <div class="input-group">
+                    <input type="text" placeholder="Address" aria-label="Preferred Location" class="form-control" maxlength="11">
+                </div>
+            </div>
+    <!---------------------------------------------I am interested-------------------------------------------------------->
+            <div class="mb-3">
+                <div class="input-group" style="margin-right: 10px;">
+                    <label for="exampleInputOpinion" class="form-label">I am interested</label>
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Opinion</option>
+                    <option value="Yes">Yes</option> 
+                    <option value="No">No</option>
+                </select>
+            </div>
+    <!-------------------------------------------Comments---------------------------------------------------------->
+            <div class="mb-4">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+            </div>
+    <!----------------------------------------Submit button------------------------------------------------------------->
+            <div class="d-grid gap-2 col-3 mx-auto float-end mb-4  justify-content-center" >
+                <a href="../index.html" class="btn btn-outline-success">Submit</a>
+            </div>    
+    <!----------------------------------------------------------------------------------------------------->
+        </form>
+    </fieldset>
+    <script src="juel_js/bootstrap.min.js"></script>
+</body>
+</html>
